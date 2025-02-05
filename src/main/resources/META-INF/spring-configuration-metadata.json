@@ -1,0 +1,54 @@
+{
+  "groups": [
+    {
+      "name": "http.pool",
+      "type": "com.edceo.springkeycloakdemo.configuration.pool.HttpConnectionPoolProperties",
+      "sourceType": "com.edceo.springkeycloakdemo.configuration.pool.HttpConnectionPoolProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "http.pool.connect-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.edceo.springkeycloakdemo.configuration.pool.HttpConnectionPoolProperties",
+      "defaultValue": 30000
+    },
+    {
+      "name": "http.pool.connection-request-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.edceo.springkeycloakdemo.configuration.pool.HttpConnectionPoolProperties",
+      "defaultValue": 30000
+    },
+    {
+      "name": "http.pool.idle-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.edceo.springkeycloakdemo.configuration.pool.HttpConnectionPoolProperties",
+      "defaultValue": 30000
+    },
+    {
+      "name": "http.pool.max-per-route",
+      "type": "java.lang.Integer",
+      "sourceType": "com.edceo.springkeycloakdemo.configuration.pool.HttpConnectionPoolProperties",
+      "defaultValue": 10
+    },
+    {
+      "name": "http.pool.max-total",
+      "type": "java.lang.Integer",
+      "sourceType": "com.edceo.springkeycloakdemo.configuration.pool.HttpConnectionPoolProperties",
+      "defaultValue": 200
+    },
+    {
+      "name": "http.pool.response-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.edceo.springkeycloakdemo.configuration.pool.HttpConnectionPoolProperties",
+      "defaultValue": 30000
+    },
+    {
+      "name": "http.pool.socket-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.edceo.springkeycloakdemo.configuration.pool.HttpConnectionPoolProperties",
+      "defaultValue": 30000
+    }
+  ],
+  "hints": []
+}
